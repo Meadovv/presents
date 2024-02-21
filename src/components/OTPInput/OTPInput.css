@@ -1,0 +1,27 @@
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.otp-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-field input:focus {
+    outline: none;
+}
+
+.otp-field input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 5px;
+}
